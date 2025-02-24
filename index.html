@@ -3,21 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #03f38b;
+            color: white;
+            padding: 20px;
+        }
+        section {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        ul, ol {
+            text-align: left;
+            margin: 0 auto;
+            width: 70%;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar">
-        <a href="#">Home</a>&nbsp;&nbsp;&nbsp;
-        <span>   </span>
-        <a href="/signup">SignUp</a>
-        <span>&nbsp;&nbsp;&nbsp;</span>
-        <a href="/login">Login</a>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <form style="display:inline">
-            <label for="search">search:</label>
-            <input type="text" id="search">
-        </form>
-
-    </nav>
+    <header>
+        <h1>Althaf</h1>
+        <img src="#" alt="Profile Image">
+    </header>
+    
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Email: altumohd007@gmail.com</p>
+        <p>Phone: 8639690067</p>
+    </section>
+    
+    <section id="career-objective">
+        <h2>Career Objective</h2>
+        <p>To leverage my skills in [Your Expertise] to contribute effectively to a dynamic organization.</p>
+    </section>
+    
+    <section id="academic-info">
+        <h2>Academic Information</h2>
+        <table border="1">
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+                <th>CGPA</th>
+            </tr>
+            <tr>
+                <td>BTech</td>
+                <td>Keshav Memorial of Institute of Technology</td>
+                <td>3rd</td>
+                <td>8.02</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="technical-skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Programming Languages: Java, Python, C</li>
+            <li>Databases: MySQL, MongoDB</li>
+            <li>Web Technologies: HTML, CSS, JavaScript</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <ol>
+            <li><strong>EMS(Evidence Mangement System):</strong> I have worked with a team to build a blockchain based project which is EMS.</li>
+        </ol>
+    </section>
+    
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <ol>
+            <li>I have won kabbadi tournament in 10th class.</li>
+        </ol>
+    </section>
+    
+    <section id="strengths">
+        <h2>Strengths</h2>
+        <ul>
+            <li>Strong problem-solving skills</li>
+            <li>Excellent communication</li>
+        </ul>
+    </section>
+    
+    <section id="personal-profile">
+        <h2>Personal Profile</h2>
+        <table border="1">
+            <tr>
+                <th>Current Location</th>
+                <td>Hyderabad, Telangana</td>
+            </tr>
+            <tr>
+                <th>Date of Birth</th>
+                <td>18/04/2003</td>
+            </tr>
+            <tr>
+                <th>Languages Known</th>
+                <td>English, Hindi, Urdu, Telugu</td>
+            </tr>
+        </table>
+    </section>
 </body>
 </html>
