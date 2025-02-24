@@ -1,0 +1,42 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #03f38b;
+            color: white;
+            padding: 20px;
+        }
+        section {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        ul, ol {
+            text-align: left;
+            margin: 0 auto;
+            width: 70%;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
